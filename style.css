@@ -1,0 +1,75 @@
+body {
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ----------------------- Header -----------------------*/
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+    background-color: aquamarine;
+}
+
+.header-content {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    gap: 16px
+}
+/* ----------------------- Presentation -----------------------*/
+
+.presentation {
+    display: flex;
+    height: 500px;
+    background-color:coral;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation-content {
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+
+}
+
+
+/* ----------------------- Colaborators -----------------------*/
+
+
+.colaborators {
+    display: flex;
+    height: 500px;
+    background-color:green;
+}
+
+.quote {
+    display: flex;
+    height: 500px;
+    background-color:red;
+}
+
+.trash {
+    display: flex;
+    height: 500px;
+    background-color:violet;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    background-color: aquamarine;
+}
