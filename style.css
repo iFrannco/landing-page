@@ -65,7 +65,27 @@ h1 {
     display: flex;
     height: 500px;
     background-color:green;
+    flex-direction: column;
+
+
+
 }
+
+h2 {
+}
+
+.colaborators-content {
+    display: flex;
+    background-color: brown;
+    height: 300px;
+    justify-self: center;
+
+}
+
+
+
+/* ----------------------- Quote -----------------------*/
+
 
 .quote {
     display: flex;
