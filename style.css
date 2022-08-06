@@ -66,22 +66,44 @@ h1 {
     height: 500px;
     background-color:green;
     flex-direction: column;
-
-
-
+    align-items: center;
+    justify-content: center;
 }
 
 h2 {
+    margin-top: -100px;
+    font-size: 40px;
 }
 
 .colaborators-content {
     display: flex;
-    background-color: brown;
-    height: 300px;
-    justify-self: center;
-
+    width: 900px;
+    background-color: goldenrod;
+    justify-content: space-between;
+    gap:20px;
+    align-items: center;    
 }
 
+.person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    height: 250px;
+    width: 200px;
+    flex:auto
+}
+
+.profile-pic {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    flex: none;
+}
+
+.text {
+    text-align: center;
+}
 
 
 /* ----------------------- Quote -----------------------*/
