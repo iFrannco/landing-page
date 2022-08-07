@@ -23,12 +23,21 @@ body {
     justify-content: space-between;
 }
 
-ul {
+.header-link-text {
     display: flex;
     list-style: none;
     padding: 0px;
     margin: 0px;
-    gap: 16px
+    gap: 16px;
+    color:#e5e7eb;
+    font-size: 18px;
+
+}
+
+.header-logo-text {
+    font-size: 24px;
+    color:#f9faf8;
+    font-weight: bold;
 }
 /* ----------------------- Presentation -----------------------*/
 
@@ -55,9 +64,6 @@ ul {
     flex-direction: column;
     width: 500px;
     justify-content: space-between;
-    color: white;
-
-
 
 }
 
@@ -65,20 +71,31 @@ ul {
     background-color: grey;
     display: flex;
     width: 550px;
-
-
 }
 
-h1 {
-    margin: 0px;
-    font-size: 50px;
+.presentation-title {
+    margin: 0;
+    font-weight:800;
+    color: #f9faf8;
+    font-size: 48px;
+}
+
+.presentation-subtext {
+    color:white;
+    font-weight:normal;
+    color:#e5e7eb;
+    font-size: 18px;
 }
 
 .presentation-button {
-    width: 120px;
-    height: 40px;
+    width: 130px;
+    height: 38px;
     background-color: #3882f6;
     color: white;
+    border-radius: 10px;
+    font-weight:bold;
+    font-size: 18px;
+    border:0;
 }
 
 
@@ -94,17 +111,18 @@ h1 {
     justify-content: center;
 }
 
-h2 {
+.colaborators-title {
     margin-top: -100px;
-    font-size: 40px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
 }
 
 .colaborators-content {
     display: flex;
     width: 900px;
-    /*background-color: goldenrod;*/
     justify-content: space-between;
-    gap:20px;
+    gap:0px;
     align-items: center;    
 }
 
@@ -114,20 +132,21 @@ h2 {
     align-items: center;
     gap:15px;
     height: 250px;
-    width: 200px;
     flex:auto
 }
 
 .profile-pic {
-    height: 200px;
-    width: 200px;
+    height: 160px;
+    width: 160px;
     flex: none;
     border: 4px solid #3882f6;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
-.text {
+.colaborators-text {
     text-align: center;
+    width: 160px;
+    color: rgb(73, 73, 73);
 }
 
 
@@ -150,14 +169,18 @@ h2 {
 }
 
 .quote-text {
-    font-size: 40px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .quote-name {
     align-self: flex-end;
-    font-size: 27px;
+    font-size: 23px;
     font-weight: bold;
-    padding-right: 30px;
+    padding-right: 100px;
+    color: #1F2937;
 
 }
 
