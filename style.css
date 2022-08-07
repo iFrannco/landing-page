@@ -129,8 +129,29 @@ h2 {
 
 .quote {
     display: flex;
+    flex-direction: column;
     height: 500px;
     background-color:red;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+}
+
+.quote-text {
+    font-size: 40px;
+}
+
+.quote-name {
+    align-self: flex-end;
+    font-size: 27px;
+    font-weight: bold;
+    padding-right: 30px;
+
 }
 
 /* ----------------------- Trash -----------------------*/
