@@ -18,7 +18,7 @@ body {
 }
 
 .header-content {
-    width: 1100px;
+    width: 1020px;
     display: flex;
     justify-content: space-between;
 }
@@ -43,7 +43,7 @@ body {
 
 .presentation {
     display: flex;
-    height: 500px;
+    height: 480px;
     background-color:#1F2937;
     justify-content: center;
     align-items: center;
@@ -51,7 +51,7 @@ body {
 
 .presentation-content {
     display: flex;
-    width: 1090px;
+    width: 1050px;
     height: 240px;
     justify-content: space-between;
     
@@ -85,11 +85,12 @@ body {
     font-weight:normal;
     color:#e5e7eb;
     font-size: 18px;
+    margin: 0px 0px 10px 0px;
 }
 
 .presentation-button {
     width: 130px;
-    height: 38px;
+    height: 42px;
     background-color: #3882f6;
     color: white;
     border-radius: 10px;
@@ -104,7 +105,7 @@ body {
 
 .colaborators {
     display: flex;
-    height: 500px;
+    height: 520px;
     background-color:white;
     flex-direction: column;
     align-items: center;
@@ -123,7 +124,8 @@ body {
     width: 900px;
     justify-content: space-between;
     gap:0px;
-    align-items: center;    
+    align-items: center;
+    margin-top: 10pxg;
 }
 
 .person {
@@ -157,7 +159,7 @@ body {
 .quote {
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 450px;
     background-color: #e5e7eb;
     justify-content: center;
     align-items: center;
@@ -190,7 +192,7 @@ body {
 
 .buy {
     display: flex;
-    height: 500px;
+    height: 360px;
     background-color:white;
     justify-content: center;
     align-items: center;
@@ -198,7 +200,7 @@ body {
 
 .buy-content {
     display: flex;
-    width: 900px;
+    width: 800px;
     background-color: #3882f6;
     justify-content: space-between;
     padding: 50px 150px;
@@ -240,7 +242,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90px;
+    height: 100px;
     background-color: #1F2937;
     color:white;
     font-size: 18px;
