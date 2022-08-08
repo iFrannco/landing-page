@@ -43,7 +43,7 @@ body {
 
 .presentation {
     display: flex;
-    height: 480px;
+    height: 450px;
     background-color:#1F2937;
     justify-content: center;
     align-items: center;
@@ -51,11 +51,8 @@ body {
 
 .presentation-content {
     display: flex;
-    width: 1050px;
-    height: 240px;
+    width: 1020px;
     justify-content: space-between;
-    
-
 }
 
 .presentation-content-text {
@@ -86,17 +83,17 @@ body {
     color:#e5e7eb;
     font-size: 18px;
     margin: 0px 0px 10px 0px;
-    width: 440px;
+    width: 446px;
 }
 
 .presentation-button {
     width: 130px;
-    height: 42px;
+    height: 40px;
     background-color: #3882f6;
     color: white;
     border-radius: 10px;
     font-weight:bold;
-    font-size: 18px;
+    font-size: 17px;
     border:0;
 }
 
