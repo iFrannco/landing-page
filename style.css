@@ -2,8 +2,7 @@ body {
     margin:0px;
     display: flex;
     flex-direction: column;
-    font-family: Roboto;
-    
+    font-family: Roboto;  
 }
 
 /* ----------------------- Header -----------------------*/
@@ -31,7 +30,6 @@ body {
     gap: 16px;
     color:#e5e7eb;
     font-size: 18px;
-
 }
 
 .header-logo-text {
@@ -61,7 +59,6 @@ body {
     flex-direction: column;
     width: 500px;
     justify-content: space-between;
-
 }
 
 .presentation-content-image {
@@ -110,23 +107,30 @@ body {
     justify-content: center;
 }
 
-.colaborators-title {
-    margin-top: -100px;
-    font-size: 36px;
-    font-weight: 800;
-    color: #1f2937;
-}
-
 .colaborators-content {
     display: flex;
+    flex-direction: column;
     width: 900px;
     justify-content: space-between;
     gap:0px;
-    align-items: center;
     margin-top: 10pxg;
 }
 
-.person {
+.colaborators-title {
+    margin-top: -50px;
+    font-size: 25px;
+    font-weight: 800;
+    color: #1f2937;
+    align-self: center;
+    font-weight: 800;
+}
+
+.colaborators-team {
+    display: flex;
+    align-content: space-between;
+}
+
+.colaborators-profile {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,7 +139,7 @@ body {
     flex:auto
 }
 
-.profile-pic {
+.colaborators-pic {
     height: 160px;
     width: 160px;
     flex: none;
@@ -148,6 +152,10 @@ body {
     width: 170px;
     color: rgb(73, 73, 73);
     font-size: 18px;
+}
+
+.colaborators-title {
+    padding-bottom: 20px;
 }
 
 
@@ -182,10 +190,9 @@ body {
     font-weight: bold;
     padding-right: 100px;
     color: #1F2937;
-
 }
 
-/* ----------------------- Trash -----------------------*/
+/* ----------------------- Buy -----------------------*/
 
 
 .buy {
@@ -196,14 +203,21 @@ body {
     align-items: center;
 }
 
+.buy-background {
+    display: flex;
+    width: 1050px;
+    height: 150px;
+    background-color: #3882f6;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+}
+
 .buy-content {
     display: flex;
     width: 800px;
-    background-color: #3882f6;
     justify-content: space-between;
-    padding: 50px 150px;
-    color: white;
-    border-radius: 10px;
+    align-items: center;
 }
 
 .buy-button {
@@ -225,22 +239,18 @@ body {
 }
 
 .buy-subtitle {
-    margin: 0;
+    margin: 0px;
     font-weight: normal;
 }
 
-
-
-
-
-/* ----------------------- footer -----------------------*/
+/* ----------------------- Footer -----------------------*/
 
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 125px;
     background-color: #1F2937;
     color:white;
     font-size: 18px;
